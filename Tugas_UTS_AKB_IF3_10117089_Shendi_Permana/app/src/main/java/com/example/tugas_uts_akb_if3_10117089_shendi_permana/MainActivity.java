@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.tugas_uts_akb_if3_10117089_shendi_permana.View.ContactActivity;
+import com.example.tugas_uts_akb_if3_10117089_shendi_permana.View.OnboardSliderActivity;
 import com.example.tugas_uts_akb_if3_10117089_shendi_permana.View.ProfileActivity;
 import com.example.tugas_uts_akb_if3_10117089_shendi_permana.View.listFriendActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;

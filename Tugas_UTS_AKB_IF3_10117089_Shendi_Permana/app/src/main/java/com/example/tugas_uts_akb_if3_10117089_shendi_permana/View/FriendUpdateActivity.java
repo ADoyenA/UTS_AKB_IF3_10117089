@@ -90,7 +90,7 @@ public class FriendUpdateActivity extends AppCompatActivity implements View.OnCl
         if (isEdit){
             actionBarTitle = "Update";
             btnTitle = "Update";
-            getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#03AC0E")));
+            getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ac0303")));
 
             if (friend != null){
                 edtNim.setText(friend.getNim());
@@ -103,7 +103,7 @@ public class FriendUpdateActivity extends AppCompatActivity implements View.OnCl
         }else {
             actionBarTitle = "Add";
             btnTitle = "Save";
-            getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#03AC0E")));
+            getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ac0303")));
         }
 
         if (getSupportActionBar() != null){
